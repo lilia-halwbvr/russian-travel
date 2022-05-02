@@ -1,0 +1,16 @@
+.place__link {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 450px) {
+    .place__link {
+        margin-left: 16px;
+
+    }
+}

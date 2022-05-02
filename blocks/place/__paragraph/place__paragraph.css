@@ -1,0 +1,13 @@
+.place__paragraph {
+    font-size: calc((100vw - 320px)/(1280 - 320) * (18 - 16) + 16px);
+    font-weight: normal;
+    line-height: 163%;
+}
+
+@media (max-width: 450px) {
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 90%;
+    }
+}

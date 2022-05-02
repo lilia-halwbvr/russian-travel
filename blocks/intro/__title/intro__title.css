@@ -1,0 +1,13 @@
+.intro__title {
+    font-size: calc((100vw - 320px)/(1280 - 320) * (54 - 32) + 32px);
+    font-weight: 900;
+    line-height: 1.07;
+    color: white;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1280px) {
+    .intro__title {
+        font-size: 54px;
+    }
+}

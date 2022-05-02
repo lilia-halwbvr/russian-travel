@@ -1,0 +1,32 @@
+.place__image {
+    width: 460px;
+    display: block;
+    background-size: contain;
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    .place__image {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+
+    }
+
+}
+
+@media (max-width: 450px) {
+    .place__image {
+        width: 100%;
+
+
+    }
+}

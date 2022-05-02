@@ -1,0 +1,60 @@
+.cover {
+    margin: 92px 48px;
+    position: relative;
+    width: calc(100vw - 96px);
+    height: 62.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover;
+     background-repeat: no-repeat; */
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1184px;
+        height: 740px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cover {
+       width: 100%;
+        margin: 92px 0;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .cover {
+        width: 100%;
+        margin: 90px 0;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .cover {
+        width: 100%;
+        margin: 64px 0 66px;
+    }
+}
+
+.cover::before {
+    content: "";
+    background-image: url(../../images/Group\ 5.png);
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+.cover:hover::before {
+    opacity: 0.50;
+    transition: .2s linear;
+}

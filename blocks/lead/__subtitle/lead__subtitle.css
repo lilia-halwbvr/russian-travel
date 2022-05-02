@@ -1,0 +1,15 @@
+.lead__subtitle {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: calc((100vw - 320px)/(1280 - 320) * (30 - 16) + 16px);
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+@media (min-width: 1280px) {
+    .lead__subtitle {
+        font-size: 30px;
+    }
+}
