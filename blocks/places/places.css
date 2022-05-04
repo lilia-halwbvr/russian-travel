@@ -1,28 +1,29 @@
 .places {
-    padding-top: 12px;
-    margin: 0 calc((100vw - 1024px)/(1280 - 1024) * (148 - 48) + 48px) 0;
+  padding-top: 12px;
+  margin: 0 calc((100vw - 1024px)/(1280 - 1024) * (148 - 48) + 48px) 0;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .places {
-        max-width: calc(100% - 96px);
-        margin-left: 48px;
-        margin-right: 48px;
-    }
+  .places {
+    max-width: calc(100% - 96px);
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .places {
-        max-width: calc(100% - 48px);
-        margin-left: 24px;
-        margin-right: 24px;
-    }
+  .places {
+    max-width: calc(100% - 48px);
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 
 }
 
 @media (max-width: 450px) {
-    .places {
-        margin: 64px 0 66px;
-        max-width: 100%;
-    }
+  .places {
+    margin: 0;
+    max-width: 100%;
+    padding-top: 39px;
+  }
 }

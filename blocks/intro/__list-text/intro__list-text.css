@@ -1,9 +1,10 @@
 .intro__list-text {
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 18px;
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

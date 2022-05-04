@@ -1,8 +1,28 @@
 .header__lang-link {
-    font-weight: normal;
-    font-size: calc((100vw - 320px)/(1280 - 320) * (24 - 18) + 18px);
-    line-height: 1.15;
-    text-decoration: none;
-    margin-left: 18px;
+  font-weight: normal;
+  font-size: calc((100vw - 320px)/(1280 - 320) * (24 - 18) + 18px);
+  line-height: 1.15;
+  text-decoration: none;
+  margin-left: 18px;
+  color: white;
+}
 
+.header__lang-link:hover {
+  opacity: 0.6;
+  transition: .2s linear;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

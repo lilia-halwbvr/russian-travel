@@ -1,8 +1,29 @@
 .cover__link {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+  height: 740px;
+  /* min-height: 100%; */
+}
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cover__link {
+    height: 58vw;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .cover__link {
+    height: 63vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__link {
+    height: 200px;
+  }
 }
