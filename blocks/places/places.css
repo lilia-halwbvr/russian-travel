@@ -1,5 +1,6 @@
 .places {
   padding-top: 12px;
+  max-width: 984px;
   margin: 0 calc((100vw - 1024px)/(1280 - 1024) * (148 - 48) + 48px) 0;
 }
 
@@ -16,6 +17,7 @@
     max-width: calc(100% - 48px);
     margin-left: 24px;
     margin-right: 24px;
+    padding-top: 16px;
   }
 
 }

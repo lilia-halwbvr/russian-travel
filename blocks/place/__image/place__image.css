@@ -22,15 +22,11 @@
 
 }
 
-@media (min-width: 426px) and (max-width: 635px) {
+@media (max-width: 635px) {
   .place__image {
     max-width: 100%;
   }
 
 }
 
-@media (max-width: 425px) {
-  .place__image {
-    max-width: 100%;
-  }
-}
+
