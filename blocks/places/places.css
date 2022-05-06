@@ -4,6 +4,13 @@
   margin: 0 calc((100vw - 1024px)/(1280 - 1024) * (148 - 48) + 48px) 0;
 }
 
+@media(min-width: 1281px) {
+  .places {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .places {
     max-width: calc(100% - 96px);
